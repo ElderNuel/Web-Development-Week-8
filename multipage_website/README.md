@@ -57,8 +57,8 @@ Replace placeholder images in /images with your assets.
 ## Live URL
 https://eldernuelwk8.netlify.app
 
-## License
-### MIT
+# License
+## MIT
 
 # 5. Deployment steps (concise)
 
