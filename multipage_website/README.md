@@ -1,7 +1,7 @@
-# MySite — Multipage Responsive Website
+# Strait2Biz — Multipage Responsive Website
 
 ## Overview
-This project is a responsive multipage website built with HTML5, CSS3 and vanilla JavaScript. It demonstrates semantic markup, responsive design, basic accessibility, and client-side interactivity.
+This project is a responsive multipage website built with HTML5, CSS3 and JavaScript. It demonstrates semantic markup, responsive design, basic accessibility, and client-side interactivity.
 
 ## Pages
 - `index.html` — Home page with hero slider and services
@@ -55,7 +55,7 @@ For sending real messages from the contact form, integrate a backend or a form p
 Replace placeholder images in /images with your assets.
 
 ## Live URL
-(Paste your live URL here after deployment)
+https://eldernuelwk8.netlify.app
 
 ## License
 ### MIT
@@ -70,7 +70,7 @@ Replace placeholder images in /images with your assets.
 
 ### Netlify
 1. Create an account at Netlify.
-2. Click “New site from Git” → connect your Git provider → select repo.
+2. Click “Import from Git” → connect your Git provider → select repo.
 3. Build command: *leave empty* (static); Publish directory: `/`.
 4. Deploy. Use Netlify forms or serverless functions if you need form handling.
 
