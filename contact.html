@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Strait2Biz</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Add favicon link -->
+     <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="Logo" class="logo" />
+        <span class="brand-name">Strait2Biz</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="site-nav" id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact">
+    <h1>Contact</h1>
+    <p>Kindly fill the form and I'll get back to you.</p>
+
+    <form id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input id="name" name="name" required minlength="2" />
+        <small class="error" aria-live="polite"></small>
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+        <small class="error" aria-live="polite"></small>
+      </div>
+
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required minlength="10"></textarea>
+        <small class="error" aria-live="polite"></small>
+      </div>
+
+      <button type="submit" class="btn">Send Message</button>
+      <p id="formSuccess" class="success" hidden>Thanks! Your message was sent (simulated).</p>
+    </form>
+
+    <nav aria-label="Social media links">
+        <ul>
+            <li>🐙 <a href="https://github.com/ElderNuel" target="_blank" rel="noopener">GitHub — Code Repositories</a></li>
+            <li>💼 <a href="https://linkedin.com/in/NuelUkah" target="_blank" rel="noopener">LinkedIn — Professional Profile</a></li>
+            <li>📘 <a href="https://facebook.com/ElderNuel" target="_blank" rel="noopener">Facebook — Public Page</a></li>
+            <li>📸 <a href="https://instagram.com/ElderNuel1" target="_blank" rel="noopener">Instagram — Creative Projects</a></li>
+            <li>🐦 <a href="https://x.com/ElderNuel" target="_blank" rel="noopener">X (Twitter) — Tech Thoughts</a></li>
+            <li>🎵 <a href="https://tiktok.com/@ElderNuel" target="_blank" rel="noopener">TikTok — Short Tech Tips</a></li>
+            <li>▶️ <a href="https://youtube.com/@ElderNuel" target="_blank" rel="noopener">YouTube — Tutorials & Talks</a></li>
+            <li>✈️ <a href="https://t.me/ElderNuel" target="_blank" rel="noopener">Telegram — Direct Messaging</a></li>
+            <li>🎮 <a href="https://discord.com/users/ElderNuel" target="_blank" rel="noopener">Discord — Community Chat</a></li>
+        </ul>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-3"></span> Strait2Biz</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
