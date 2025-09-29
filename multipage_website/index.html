@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nuel Ukah Portfolio — Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="A responsive multipage site — Home" />
+  <!-- Add favicon link -->
+     <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="Logo" class="logo" />
+        <span class="brand-name">Strait2Biz</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="site-nav" id="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Design. Build. Ship.</h1>
+          <p>Responsive websites with clean code and delightful interactions.</p>
+          <a class="btn" href="contact.html">Get in touch</a>
+        </div>
+        <div class="hero-slider" aria-roledescription="carousel" data-slider>
+          <div class="slides">
+            <img src="images/hero1.jpg" alt="Project 1" class="slide" />
+            <img src="images/hero2.jpg" alt="Project 2" class="slide" />
+          </div>
+          <div class="slider-controls">
+            <button data-prev aria-label="Previous slide">‹</button>
+            <button data-next aria-label="Next slide">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services container" id="services">
+      <h2>Services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Web Design</h3>
+          <p>Semantic HTML5, modern CSS, responsive layouts.</p>
+        </article>
+        <article class="card">
+          <h3>Frontend Dev</h3>
+          <p>Interactive UI with accessible JavaScript.</p>
+        </article>
+        <article class="card">
+          <h3>Optimization</h3>
+          <p>Performance improvements and SEO basics.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Strait2Biz — Built with HTML, CSS & JS</p>
+      <p class="small">Deployed on Netlify</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
